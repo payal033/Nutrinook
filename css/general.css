@@ -140,6 +140,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -150,6 +151,10 @@ body {
   border-radius: 9px;
   /* put transition on original state */
   transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
@@ -174,6 +179,18 @@ body {
   background-color: var(--lightest-green);
   /* using inset- shadow will be addded inside */
   box-shadow: inset 0 0 0 3px var(--white);
+}
+
+.btn--form {
+  background-color: #05291b;
+  color: var(--lightest-green);
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
@@ -247,4 +264,9 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgb(16, 136, 91, 0.5);
 }
