@@ -43,5 +43,5 @@ This learning based project is a responsive food subscription website built usin
 ## How to Use
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/<USERNAME>/<REPOSITORY-NAME>.git
+   git clone https://github.com/payal033/Nurtrinook.git
 2. Open the index.html file in any modern web browser.
