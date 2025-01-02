@@ -1,7 +1,9 @@
-# Nutrinook
+# Nutrinook 
 
 ## Overview
 This learning based project is a responsive food subscription website built using **HTML5** and **CSS3**. It showcases modern web design principles and implements various features to provide an engaging user experience. This website is designed to simulate a food delivery service where users can subscribe to curated meal plans.
+
+### [Demo](https://payal033.github.io/Nutrinook/)
 
 ---
 
